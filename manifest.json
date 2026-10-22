@@ -1,0 +1,9 @@
+{
+    "version":  "1.17.8",
+    "git":  "fa9f9dc298",
+    "build":  "hfdiag 1.17.8 git fa9f9dc298 (Oct 23 2026 00:37:35)",
+    "sha256":  "3BCBF2C86419EA22E3107198FB3DB7BB7F69DD8BE116E9D177B894FB827B9BA4",
+    "size":  336896,
+    "date":  "2026-10-22T22:02:26Z",
+    "notes":  "1.17.8: no false part losses (E-64); first public release"
+}
