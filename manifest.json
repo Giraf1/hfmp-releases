@@ -1,9 +1,9 @@
 {
-    "version":  "1.17.8",
-    "git":  "fa9f9dc298",
-    "build":  "hfdiag 1.17.8 git fa9f9dc298 (Oct 23 2026 00:37:35)",
-    "sha256":  "3BCBF2C86419EA22E3107198FB3DB7BB7F69DD8BE116E9D177B894FB827B9BA4",
-    "size":  336896,
-    "date":  "2026-10-22T22:02:26Z",
-    "notes":  "1.17.8: no false part losses (E-64); first public release"
+    "version":  "1.24.1",
+    "git":  "db190eab21",
+    "build":  "hfdiag 1.24.1 git db190eab21 (Oct 23 2026 21:41:14)",
+    "sha256":  "33D32BA2EBB7254493FBDCF75D33FF6E6C974D92D2D5ED2E9D8805E2FB310A2E",
+    "size":  385536,
+    "date":  "2026-10-23T18:45:29Z",
+    "notes":  "1.24.1: fires, missiles + AA, decoys, bombs, identical terrain (E-66..E-76)"
 }

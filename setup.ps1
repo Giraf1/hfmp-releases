@@ -43,7 +43,7 @@ if (Test-Path $man) { $m = Get-Content -Raw $man | ConvertFrom-Json; Set-Content
 
 # 5. Settings: run from this folder (not via Steam), client role, host address, label, test aids
 Set-Content -NoNewline -Encoding ascii (Join-Path $Lab 'steam_appid.txt') '1434950'
-foreach ($f in 'hfdiag_unlock_skirmish', 'hfdiag_ship_probe', 'hfdiag_mirror_client', 'hfdiag_client_invuln', 'hfdiag_unlock_fleet', 'hfdiag_part_sync', 'hfdiag_log_stream') {
+foreach ($f in 'hfdiag_unlock_skirmish', 'hfdiag_ship_probe', 'hfdiag_mirror_client', 'hfdiag_client_invuln', 'hfdiag_unlock_fleet', 'hfdiag_part_sync', 'hfdiag_log_stream', 'hfdiag_terrain_sync') {
     Set-Content -Encoding ascii (Join-Path $Lab "$f.txt") 'on'
 }
 Set-Content -Encoding ascii (Join-Path $Lab 'hfdiag_ship_net.txt') 'client'   # ship exchange before the battle (UDP, host port 47801)
